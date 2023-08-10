@@ -3,6 +3,7 @@
 
 
 App Requirements
+
 ○ Add a nav bar at the bottom of the screen
 ■ The current active page should be filled in with white
 ○ Watch Page
@@ -19,6 +20,8 @@ native docs for how to implement.
 to simulate an infinite feed
     
  ■ At the bottom left you should include a username of the person who made the video and the video’s title.
+
+ 
 ○ Ask Page
 ■ There are two ways to reach this page
 ● By clicking on the ask button on the nav bar
@@ -48,6 +51,8 @@ else put it as “anonymous”.
 the nav bar, then the therapist name should be “anonymous”.
 ● Video should be saved and displayed at the top of the watch page.
 ● Users should be brought to the watch page.
+
+
 ○ Search Page
 ■ Add data for 5 potential therapists in the database to populate the search
 ● Include the following ○ Profile pic
@@ -55,8 +60,7 @@ the nav bar, then the therapist name should be “anonymous”.
 ○ Username
 ■ SarahJohnsonLMFT ■ MichaelWilliamsLPC ■ EmilyAndersonPsyD ■ DavidMartinezLMHC ■ LauraThompsonLMFT
 ○ 3 mental health related keywords
-
- ■ Sarah Johnson, LMFT:
+■ Sarah Johnson, LMFT:
 ● Couples Counseling
 ● Communication Skills
 ● Family Dynamics
@@ -77,7 +81,7 @@ the nav bar, then the therapist name should be “anonymous”.
 ● Parenting Support
 ● Communication Skills
 ■ The search page can be accessed from the nav bar
-● When a user clicks on this page the search bar should auto focus
+● When a user clicks on this page the search bar should autofocus
 ■ Implement a search feature where a user can search for a therapist using their username or one of the keywords associated with this.
 ■ When the user clicks done
 ● If there are any partial or full matches then they should be
@@ -88,7 +92,7 @@ the therapist that they clicked on.
 ● If there are no matches then display the ‘Don’t see your therapist’’
 message. If the user clicks invite your therapist then bring up the share menu
 ○
-● Please reference our current app, your skills, experience, ideas and technology to do the
+● Please reference our current app, your skills, experience, ideas, and technology to do the
 following:
 ○ Prioritize the problems identified into a list
 ■ You are allowed to suggest and implement alternatives – if you do so, please include this in the prioritization with the proposed problems we listed (feel free to include if you would not prioritize others + why)
