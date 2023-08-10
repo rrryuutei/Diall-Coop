@@ -2,10 +2,9 @@
 
 
 
-App Requirements
 
-○ Add a nav bar at the bottom of the screen
-■ The current active page should be filled in with white
+
+
 ○ Watch Page
 ■ This page is a feed of videos, the user can swipe up or down to do a
 different video. Only one video should be played at a time.
@@ -18,8 +17,7 @@ different video. Only one video should be played at a time.
 native docs for how to implement.
 ■ When you get to the end of the feed it should restart from the first video
 to simulate an infinite feed
-    
- ■ At the bottom left you should include a username of the person who made the video and the video’s title.
+■ At the bottom left you should include the username of the person who made the video and the video’s title.
 
  
 ○ Ask Page
@@ -38,17 +36,14 @@ video should stop recording.
 ● Show an X button in the top left corner
 ○ Clicking the x button will delete the recording
 ● Show an input for the user to enter a title
-○ Title can be 40 characters max, adjust input field size
-vertically so the full title is shown without overflowing off
-the screen.
+○ Title can be 40 characters max, adjust input field size vertically so the full title is shown without overflowing off the screen.
 ● Show a send it button
 ○ User must enter a title before being able to click send button
 ■ Once a user clicks the send button
 ● If the user was brought from the search page then save the
-username on the video as the therapist they asked the question
-else put it as “anonymous”.
-● If the user was brought into the page by clicking the ask button on
-the nav bar, then the therapist name should be “anonymous”.
+username on the video as the therapist asked the question else put it as “anonymous”.
+● If the user was brought to the page by clicking the Ask button on
+the nav bar, then the therapist's name should be “anonymous”.
 ● Video should be saved and displayed at the top of the watch page.
 ● Users should be brought to the watch page.
 
@@ -91,16 +86,3 @@ and when they submit a video the username should be of
 the therapist that they clicked on.
 ● If there are no matches then display the ‘Don’t see your therapist’’
 message. If the user clicks invite your therapist then bring up the share menu
-○
-● Please reference our current app, your skills, experience, ideas, and technology to do the
-following:
-○ Prioritize the problems identified into a list
-■ You are allowed to suggest and implement alternatives – if you do so, please include this in the prioritization with the proposed problems we listed (feel free to include if you would not prioritize others + why)
-○ Pick the most immediate problem and code a single feature that solves it (we will review this code together)
-■ The intention is that you deliver a single feature from scratch (no modification of our current code and no need to build an entire app)
- 
-■ Your solution can affect one type of user or both types of users
-■ This purposefully doesn’t include a Figma file or sample code, to remove
-potential bias
-○ Build a short action plan of how you would solve the rest of the problems
-■ Make sure to include how you would use 1 product designer, 1 mid level engineer and 1 junior engineer on your team
