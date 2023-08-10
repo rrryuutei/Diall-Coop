@@ -12,7 +12,7 @@ different video. Only one video should be played at a time.
 ■ First Video should autoplay
 ■ Tapping the video should pause the video
 ● When a video is paused the paused icon should be shown
-● Tapping the the video again should play it
+● Tapping the video again should play it
 ■ Clicking the share button should bring up the share menu. Refer to react
 native docs for how to implement.
 ■ When you get to the end of the feed it should restart from the first video
